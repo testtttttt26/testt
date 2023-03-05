@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Question Message</title>
+  <script>
+    function showMessage(option) {
+      if (option === "Yes") {
+        window.location.href = "https://www.example.com";
+      } else if (option === "No") {
+        window.location.href = "https://www.google.com";
+      }
+    }
+  </script>
+</head>
+<body>
+  <h3>Do you want to continue?</h3>
+  <button onclick="showMessage('Yes')">Yes</button>
+  <button onclick="showMessage('No')">No</button>
+</body>
+</html>
